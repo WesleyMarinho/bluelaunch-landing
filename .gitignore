@@ -1,0 +1,15 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Dependencies/build (none used, kept for future)
+node_modules/
+dist/
+build/

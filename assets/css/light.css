@@ -1,0 +1,38 @@
+@import url('./dark.css');
+
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --text: #0b0e14;
+  --muted: #5b6477;
+  --border: #e5e8ef;
+  --primary: #1165f2;
+  --primary-600: #0f55cc;
+  --primary-700: #0d49ad;
+  --success: #23c483;
+  --danger: #ef476f;
+  --shadow: 0 10px 30px rgba(16,24,40,.08);
+}
+
+body {
+  color: var(--text);
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 60%, #f6f9ff 100%);
+}
+
+.section.alt { background: #f6f8fb; }
+.site-header { background: rgba(255,255,255,.75); border-bottom-color: var(--border); }
+.nav-menu a:hover { background: rgba(17,101,242,.08); color: var(--text); }
+
+.mockup-card { background: linear-gradient(160deg,#ffffff,#f6f8fb); border-color: var(--border); box-shadow: 0 10px 30px rgba(16,24,40,.10); }
+.mockup-bar { background: #eef2f8; border-color: var(--border); }
+.social-proof { background: #f7f9fc; border-color: var(--border); }
+
+.product-card { background: #ffffff; border-color: var(--border); }
+.testimonial { background: #ffffff; border-color: var(--border); }
+.faq details { background: #ffffff; border-color: var(--border); }
+.newsletter input { background: #ffffff; color: var(--text); border-color: var(--border); }
+.site-footer { background: #f7f9fc; border-top-color: var(--border); }
+
+.btn--ghost { border-color: var(--border); }
+.btn--inverted { background: #0b0e14; color: #fff; }
+
